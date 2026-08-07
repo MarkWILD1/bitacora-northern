@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Propuesta — sistema de contratos escolares Colegio Northern" />
+  <title>Propuesta Contratos — Colegio Northern</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <nav class="site-nav" aria-label="Principal">
+    <div class="site-nav__inner">
+      <a class="site-nav__brand" href="../index.html">
+        <img src="../assets/logo-northern.jpeg" width="36" height="36" alt="" />
+        Bitácora - Northern School
+      </a>
+      <ul class="site-nav__links">
+        <li><a href="../index.html">Actualizaciones</a></li>
+        <li><a href="landing.html">Landing</a></li>
+        <li><a href="contratos.html" aria-current="page">Contratos</a></li>
+        <li><a href="uniformes.html">Uniformes</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="wrap">
+    <header class="doc-header">
+      <img src="../assets/logo-northern.jpeg" width="320" height="320" alt="Colegio Northern" />
+    </header>
+
+    <main class="card">
+      <p class="kicker">Propuesta comercial · MVP</p>
+      <h1 class="display">Sistema de gestión de contratos escolares</h1>
+      <p class="meta">
+        MVP para que la administración suba contratos (PDF o Word), genere enlaces únicos y los
+        responsables de pago acepten en línea con evidencia auditable para archivo institucional.
+      </p>
+
+      <h2>Qué es este sistema</h2>
+      <p>
+        Es una aplicación web con <strong>dos partes</strong>: un <strong>panel interno</strong> para
+        personal de la institución y un <strong>área pública</strong> donde el responsable abre un
+        enlace, revisa el contrato y registra su aceptación. El sistema guarda quién aceptó, cuándo,
+        desde qué dispositivo y qué versión del contrato vio, para respaldo administrativo y
+        trazabilidad.
+      </p>
+
+      <h2>Objetivo de negocio</h2>
+      <ul>
+        <li>Centralizar contratos en un <strong>catálogo reutilizable</strong>.</li>
+        <li>Reducir papeles e idas y vueltas: el responsable completa datos mínimos y acepta en un solo flujo.</li>
+        <li>Dejar <strong>evidencia clara</strong> (fecha/hora, IP, navegador, token, estado del enlace).</li>
+        <li>Aplicar <strong>branding institucional</strong> (logo del colegio) en pantalla pública, panel y comprobantes.</li>
+        <li>Sentar bases para futuras mejoras (pagos en línea, OTP, firma más robusta).</li>
+      </ul>
+
+      <h2>Alcance del MVP</h2>
+      <div class="two-col">
+        <div class="panel">
+          <h3>Incluye (esta fase)</h3>
+          <ul>
+            <li>Panel interno para administración / contabilidad.</li>
+            <li>Carga de contratos en <strong>PDF o Word</strong>; Word se convierte a PDF para que no se altere.</li>
+            <li>Catálogo reutilizable de contratos.</li>
+            <li>Generación de <strong>enlace único</strong> con expiración opcional.</li>
+            <li>Formulario público etiquetado como <strong>Responsable de PAGO</strong> (cédula y aceptación de términos).</li>
+            <li>Ver o descargar el PDF antes de aceptar.</li>
+            <li>Auditoría de pasos: enlace creado, abierto, PDF visto, aceptado, comprobante generado.</li>
+            <li>Hash SHA-256 del contrato almacenado.</li>
+            <li><strong>Comprobante PDF</strong> exportable de la aceptación.</li>
+            <li>Logo del colegio en interfaz pública, panel y comprobantes.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>No incluye (por ahora)</h3>
+          <ul>
+            <li>Firma digital avanzada ni certificados criptográficos.</li>
+            <li>Pagos online.</li>
+            <li>Portal completo de familias (más allá del enlace y formulario de aceptación).</li>
+          </ul>
+          <p class="lead" style="margin-top: 12px; margin-bottom: 0;">
+            Estas líneas pueden incorporarse en fases posteriores sin rehacer el núcleo del MVP.
+          </p>
+        </div>
+      </div>
+
+      <h2>Flujo del sistema</h2>
+      <div class="flow" aria-label="Pasos del flujo">
+        <div class="flow-step">
+          <span class="flow-step__num">1</span>
+          <h3>Administración</h3>
+          <p>Sube PDF o Word al catálogo y crea un envío eligiendo contrato y destinatario.</p>
+        </div>
+        <div class="flow-step">
+          <span class="flow-step__num">2</span>
+          <h3>Sistema</h3>
+          <p>Guarda el archivo, genera un token de enlace y registra el envío.</p>
+        </div>
+        <div class="flow-step">
+          <span class="flow-step__num">3</span>
+          <h3>Responsable de PAGO</h3>
+          <p>Abre el enlace, lee o descarga el contrato, completa el formulario y acepta.</p>
+        </div>
+        <div class="flow-step">
+          <span class="flow-step__num">4</span>
+          <h3>Evidencia</h3>
+          <p>Queda registro auditable y un comprobante PDF para archivo administrativo.</p>
+        </div>
+      </div>
+
+      <h2>Qué podrá hacer la institución</h2>
+      <ul>
+        <li>Subir contratos desde el panel interno (PDF o Word).</li>
+        <li>Elegir un contrato del catálogo al generar cada envío.</li>
+        <li>Enviar o copiar un enlace único al responsable de pago.</li>
+        <li>Ver la auditoría de apertura, lectura y aceptación.</li>
+        <li>Descargar el comprobante PDF para soporte administrativo.</li>
+      </ul>
+
+      <h2>Fases de implementación</h2>
+      <ol>
+        <li><strong>Base técnica</strong> — aplicación web y API.</li>
+        <li><strong>Backend</strong> — contratos, enlaces, aceptación y auditoría.</li>
+        <li><strong>Panel administrativo</strong> — catálogo, carga y generación de enlaces.</li>
+        <li><strong>Área pública</strong> — lectura del contrato, formulario y branding.</li>
+        <li><strong>Evidencia</strong> — comprobante en pantalla y exportación PDF.</li>
+        <li><strong>Endurecimiento</strong> — expiración de enlaces, hash del PDF, logs ampliados.</li>
+      </ol>
+
+      <div class="note" role="note">
+        <strong>Nota operativa:</strong> el MVP ofrece evidencia administrativa fuerte de notificación
+        y aceptación; no sustituye por sí solo una firma digital avanzada. En fases siguientes se
+        pueden añadir OTP, endurecimiento del hash y otras medidas.
+      </div>
+
+      <h2>Inversión</h2>
+      <p class="lead">
+        Los montos se expresan en <strong>dólares estadounidenses (USD)</strong>. Esta propuesta
+        contempla el desarrollo del MVP y el abono mensual de soporte.
+      </p>
+      <div class="two-col">
+        <div class="panel">
+          <h3>Desarrollo del MVP</h3>
+          <p class="price">USD 700</p>
+          <p class="lead" style="margin-bottom: 0;">
+            Pago único (mitad al inicio y mitad al cierre, o hitos acordados por escrito). Incluye
+            panel, área pública, catálogo, enlaces, auditoría y comprobante.
+          </p>
+        </div>
+        <div class="panel">
+          <h3>Soporte y mantenimiento</h3>
+          <p class="price">USD 50 / mes</p>
+          <p class="lead" style="margin-bottom: 0;">
+            Abono mensual para mantener el sistema, resolver incidencias y pequeñas mejoras
+            operativas acordadas.
+          </p>
+        </div>
+      </div>
+
+      <h3>Resumen de costos</h3>
+      <table aria-label="Inversión del MVP de contratos">
+        <thead>
+          <tr>
+            <th>Concepto</th>
+            <th>Periodicidad</th>
+            <th>Monto (USD)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Honorarios desarrollo MVP (contratos escolares)</td>
+            <td>Pago único o hitos acordados</td>
+            <td>700</td>
+          </tr>
+          <tr>
+            <td>Soporte y mantenimiento</td>
+            <td>Mensual</td>
+            <td>50 / mes</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="note" role="note">
+        <strong>Resumen:</strong> USD 700 por el MVP según este documento y USD 50 mensuales por
+        soporte. Funciones fuera de alcance (pagos online, OTP, firma avanzada) pueden acordarse
+        como ampliación futura con presupuesto aparte.
+      </div>
+
+      <div class="button-row" style="margin-top: 28px;">
+        <a class="button button--ghost" href="../index.html">Volver a actualizaciones</a>
+      </div>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    Colegio Northern — propuesta sistema de contratos escolares.
+  </footer>
+</body>
+</html>

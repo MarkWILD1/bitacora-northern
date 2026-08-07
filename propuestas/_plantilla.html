@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--
+    Cómo usar esta plantilla:
+    1. Copiá este archivo con un nombre nuevo, por ejemplo: propuesta-nombre.html
+    2. Completá título, resumen, estado, alcance, inversión y notas.
+    3. En index.html, agregá un enlace en la sección "Nuevas propuestas".
+    4. Actualizá el menú de navegación si querés un acceso directo permanente.
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Propuesta — Colegio Northern" />
+  <title>Nueva propuesta — Colegio Northern</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <nav class="site-nav" aria-label="Principal">
+    <div class="site-nav__inner">
+      <a class="site-nav__brand" href="../index.html">
+        <img src="../assets/logo-northern.jpeg" width="36" height="36" alt="" />
+        Bitácora - Northern School
+      </a>
+      <ul class="site-nav__links">
+        <li><a href="../index.html">Actualizaciones</a></li>
+        <li><a href="landing.html">Landing</a></li>
+        <li><a href="contratos.html">Contratos</a></li>
+        <li><a href="uniformes.html">Uniformes</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="wrap">
+    <header class="doc-header">
+      <img src="../assets/logo-northern.jpeg" width="320" height="320" alt="Colegio Northern" />
+    </header>
+
+    <main class="card">
+      <p class="kicker">Propuesta · <span class="badge badge--proposal">Propuesta</span></p>
+      <h1 class="display">Título de la propuesta</h1>
+      <p class="meta">
+        Resumen breve para la administración del colegio: qué problema resuelve, para quién es y
+        qué se entregará.
+      </p>
+
+      <h2>Estado</h2>
+      <p>
+        <!-- Usá uno: badge--proposal | badge--progress | badge--done -->
+        <span class="badge badge--proposal">Propuesta</span>
+      </p>
+
+      <h2>Alcance</h2>
+      <div class="two-col">
+        <div class="panel">
+          <h3>Incluye</h3>
+          <ul>
+            <li>Ítem incluido 1</li>
+            <li>Ítem incluido 2</li>
+            <li>Ítem incluido 3</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>No incluye</h3>
+          <ul>
+            <li>Ítem excluido 1</li>
+            <li>Ítem excluido 2</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Inversión</h2>
+      <p class="lead">Completá montos y condiciones de pago.</p>
+      <table aria-label="Inversión de la propuesta">
+        <thead>
+          <tr>
+            <th>Concepto</th>
+            <th>Periodicidad</th>
+            <th>Monto (USD)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Desarrollo</td>
+            <td>Pago único o hitos</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Mantenimiento / soporte</td>
+            <td>Mensual</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Notas</h2>
+      <div class="note">
+        Observaciones, dependencias, plazos tentativos o acuerdos pendientes con la institución.
+      </div>
+
+      <div class="button-row" style="margin-top: 28px;">
+        <a class="button button--ghost" href="../index.html">Volver a actualizaciones</a>
+      </div>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    Colegio Northern — plantilla de propuesta.
+  </footer>
+</body>
+</html>
