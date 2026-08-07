@@ -2,7 +2,13 @@
 
 Sitio HTML estático para que la administración del Colegio Northern vea el estado de las implementaciones y las propuestas comerciales asociadas.
 
-## Cómo abrir
+## Sitio en vivo
+
+https://markwild1.github.io/bitacora-northern/
+
+Publicado con GitHub Pages desde la rama `main`.
+
+## Cómo abrir en local
 
 Abrí `index.html` en el navegador (doble clic o arrastrar el archivo a Chrome/Edge/Firefox). No requiere instalación ni servidor.
 
