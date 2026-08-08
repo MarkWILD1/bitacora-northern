@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-08T17:20:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Logo en admin, título del sistema y roles Admin/Operador",
+    status: "done",
+    details: [
+      "El panel de administración muestra el logo Northern y el título del sistema de contratos",
+      "Desde usuarios se pueden crear operadores o administradores con PIN",
+      "Los administradores creados entran con correo + PIN al panel de gestión",
+    ],
+  },
+  {
     at: "2026-08-08T16:45:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
@@ -16,6 +28,7 @@ window.BITACORA_CHANGELOG = [
       "El administrador ve reportes globales: envíos, aceptaciones y auditoría",
     ],
   },
+
   {
     at: "2026-08-08T16:35:00-03:00",
     module: "Contratos",
