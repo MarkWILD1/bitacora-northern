@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-08T17:35:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Link cliqueable en WhatsApp y aviso al copiar",
+    status: "done",
+    details: [
+      "Al copiar el enlace se adapta para que WhatsApp lo muestre como hipervínculo (aunque el servidor use IP)",
+      "Aparece un modal confirmando que el link fue copiado al portapapeles",
+    ],
+  },
+  {
     at: "2026-08-08T17:25:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
