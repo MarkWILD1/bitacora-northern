@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-08T18:10:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Copiar link funciona también en HTTP de producción",
+    status: "done",
+    details: [
+      "Al pulsar Copiar link el enlace queda en el portapapeles aunque el sitio use HTTP (sin HTTPS)",
+      "Si el navegador bloquea la copia automática, el modal deja el enlace seleccionado para Ctrl+C",
+    ],
+  },
+  {
     at: "2026-08-08T17:45:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
