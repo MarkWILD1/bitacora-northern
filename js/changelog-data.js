@@ -5,6 +5,40 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-08T16:35:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Evidencia legible del navegador en aceptación y auditoría",
+    status: "done",
+    details: [
+      "El navegador se muestra claro (por ejemplo Google Chrome o Brave) en la evidencia",
+      "La auditoría del panel incluye navegador e IP en cada paso del responsable",
+      "El comprobante PDF se descarga con un nombre entendible (contrato + responsable)",
+    ],
+  },
+  {
+    at: "2026-08-08T16:34:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Página pública: logo completo y Responsable de PAGO",
+    status: "done",
+    details: [
+      "Logo institucional visible completo en la página de aceptación",
+      "Formulario etiquetado como Responsable de PAGO (ya no como tutor)",
+    ],
+  },
+  {
+    at: "2026-08-08T16:33:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Enlaces sin nombre ni código de alumno",
+    status: "done",
+    details: [
+      "Al generar el enlace ya no se piden nombre ni código del alumno",
+      "La vista pública y el listado de envíos quedan alineados con ese criterio",
+    ],
+  },
+  {
     at: "2026-08-08T16:14:00-03:00",
     module: "Bitácora",
     moduleHref: "index.html",
@@ -16,6 +50,7 @@ window.BITACORA_CHANGELOG = [
       "Se mantiene la paleta institucional Northern",
     ],
   },
+
   {
     at: "2026-08-08T12:00:00-03:00",
     module: "Landing",
