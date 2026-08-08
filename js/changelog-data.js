@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-08T16:45:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Administrador, usuarios con PIN y reportes de plataforma",
+    status: "done",
+    details: [
+      "El administrador crea operadores con correo y PIN de 4 dígitos",
+      "Los operadores ingresan y usan el panel completo de contratos",
+      "El administrador ve reportes globales: envíos, aceptaciones y auditoría",
+    ],
+  },
+  {
     at: "2026-08-08T16:35:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
@@ -16,6 +28,7 @@ window.BITACORA_CHANGELOG = [
       "El comprobante PDF se descarga con un nombre entendible (contrato + responsable)",
     ],
   },
+
   {
     at: "2026-08-08T16:34:00-03:00",
     module: "Contratos",
