@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-08T17:45:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Hora Uruguay, pestañas de enlaces y búsqueda de contratos",
+    status: "done",
+    details: [
+      "La hora de aceptación del comprobante y la auditoría usan zona Uruguay (America/Montevideo)",
+      "Enlaces emitidos separados en pestañas No aceptados y Aceptados",
+      "Búsqueda en el selector de contrato a enviar; catálogo compartido entre todos los operadores",
+    ],
+  },
+  {
     at: "2026-08-08T17:35:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
