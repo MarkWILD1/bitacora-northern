@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-08T17:25:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Ver PIN y contraseña con ojito en usuarios",
+    status: "done",
+    details: [
+      "El administrador puede revelar PIN y contraseña de cada usuario con el ícono del ojo",
+      "Regenerar PIN invalida el anterior y deja el nuevo listo para entregar",
+    ],
+  },
+  {
     at: "2026-08-08T17:20:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
@@ -16,6 +27,7 @@ window.BITACORA_CHANGELOG = [
       "Los administradores creados entran con correo + PIN al panel de gestión",
     ],
   },
+
   {
     at: "2026-08-08T16:45:00-03:00",
     module: "Contratos",
