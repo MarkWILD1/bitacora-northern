@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=3" />
+  <link rel="stylesheet" href="css/styles.css?v=4" />
 </head>
 <body class="app">
   <div class="app__shell">
@@ -107,144 +107,21 @@
           <p class="kicker">Seguimiento institucional</p>
           <h1 class="display" id="pageTitle">Actualizaciones</h1>
           <p class="meta">
-            Seguimiento de sistemas entregados al Colegio Northern School. Aquí se resumen las implementaciones
-            ya realizadas y se enlazan las propuestas comerciales de cada proyecto. Las iniciativas nuevas
-            están en la sección <strong>Propuestas</strong> del menú lateral.
+            Los últimos cambios aparecen arriba, apilados por fecha y hora de implementación.
+            El detalle por proyecto sigue en el menú lateral y en los enlaces de abajo.
           </p>
 
-          <div class="project-grid">
-            <section class="project-card" aria-labelledby="landing-title">
-              <h2 id="landing-title">Landing institucional</h2>
-              <p class="lead">Sitio web público con panel de administración para editar contenido, secciones e imágenes.</p>
-              <ul class="item-list">
-                <li>
-                  <span>Landing pública responsive, splash y animaciones</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Barra de anuncios y navegación editable</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Carrusel hero</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Misión y Visión / niveles educativos</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Estadísticas de la comunidad</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Lo que nos define</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Lenguas extranjeras (pestañas)</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Talleres</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Educación Física</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Equipo multidisciplinario</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Proyecto institucional</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Más allá del aula (Instagram)</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Locales y espacios</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Countdown — The Final Show</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Sección Staff corporativa con formulario de postulación</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Páginas de contenido (CMS)</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Footer, contacto y botón WhatsApp</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Panel admin, fotos por Google Drive y publicación</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-              </ul>
-              <div class="button-row">
-                <a class="button" href="https://northernschool.edu.uy" target="_blank" rel="noopener noreferrer">Ver landing</a>
-                <a class="button button--ghost" href="propuestas/landing.html">Ver propuesta</a>
-              </div>
-            </section>
+          <div id="changelog" class="changelog" aria-live="polite" aria-label="Historial de implementaciones">
+            <p class="empty-slot">Cargando actualizaciones…</p>
+          </div>
 
-            <section class="project-card" aria-labelledby="contratos-title">
-              <h2 id="contratos-title">Sistema de contratos</h2>
-              <p class="lead">MVP para subir contratos, enviar enlaces únicos a responsables de pago y conservar evidencia auditable.</p>
-              <ul class="item-list">
-                <li>
-                  <span>Panel administrativo con acceso seguro</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Catálogo de contratos PDF o Word</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Conversión Word → PDF (no editable)</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Enlaces únicos con expiración opcional</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Aceptación como Responsable de PAGO</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Auditoría (abrir, ver PDF, aceptar)</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Hash SHA-256 del contrato</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Comprobante PDF exportable</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Branding Northern en panel y página pública</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-                <li>
-                  <span>Despliegue en servidor (Docker)</span>
-                  <span class="badge badge--done">Hecho</span>
-                </li>
-              </ul>
-              <div class="button-row">
-                <a class="button" href="propuestas/contratos.html">Ver propuesta</a>
-              </div>
-            </section>
+          <h2>Por proyecto</h2>
+          <p class="lead">Resumen y alcance de cada frente.</p>
+          <div class="module-links">
+            <a class="button button--ghost" href="propuestas/landing.html">Landing</a>
+            <a class="button button--ghost" href="propuestas/contratos.html">Contratos</a>
+            <a class="button button--ghost" href="propuestas/uniformes.html">Uniformes</a>
+            <a class="button" href="https://northernschool.edu.uy" target="_blank" rel="noopener noreferrer">Ver landing</a>
           </div>
         </main>
       </div>
@@ -261,6 +138,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="js/changelog-data.js"></script>
+  <script src="js/changelog.js" defer></script>
   <script src="js/sidebar.js" defer></script>
   <script src="js/motion.js" defer></script>
 </body>

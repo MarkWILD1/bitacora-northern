@@ -3,10 +3,10 @@
 <head>
   <!--
     Cómo usar esta plantilla:
-    1. Copiá este archivo con un nombre nuevo, por ejemplo: propuesta-nombre.html
+    1. Copiá este archivo con un nombre nuevo, por ejemplo: nombre.html
     2. Completá título, resumen, estado, alcance, inversión y notas.
     3. Agregá el ítem en la sección "Propuestas" de la sidebar (todas las páginas).
-    4. No hace falta listarlo en el resumen de Actualizaciones.
+    4. Registrá la propuesta en js/changelog-data.js (arriba del array) y poné data-module en #changelog.
   -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/styles.css?v=3" />
+  <link rel="stylesheet" href="../css/styles.css?v=4" />
 </head>
 <body class="app">
   <div class="app__shell">
@@ -119,6 +119,10 @@
         qué se entregará.
       </p>
 
+      <div id="changelog" class="changelog" data-module="nombre" aria-live="polite" aria-label="Historial de implementaciones">
+        <p class="empty-slot">Cargando actualizaciones…</p>
+      </div>
+
       <h2>Estado</h2>
       <p>
         <!-- Usá uno: badge--proposal | badge--progress | badge--done -->
@@ -191,6 +195,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="../js/changelog-data.js"></script>
+  <script src="../js/changelog.js" defer></script>
   <script src="../js/sidebar.js" defer></script>
   <script src="../js/motion.js" defer></script>
 </body>

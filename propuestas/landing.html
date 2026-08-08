@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/styles.css?v=3" />
+  <link rel="stylesheet" href="../css/styles.css?v=4" />
 </head>
 <body class="app">
   <div class="app__shell">
@@ -104,9 +104,19 @@
         </header>
 
         <main class="card">
-      <p class="kicker">Propuesta comercial</p>
-      <h1 class="display" id="pageTitle">Presupuesto — Landing Page Institucional</h1>
+      <p class="kicker">Seguimiento institucional</p>
+      <h1 class="display" id="pageTitle">Landing institucional</h1>
       <p class="meta">
+        Los últimos cambios de este proyecto aparecen arriba, apilados por fecha y hora.
+        Más abajo está el presupuesto comercial de la landing.
+      </p>
+
+      <div id="changelog" class="changelog" data-module="landing" aria-live="polite" aria-label="Historial de implementaciones">
+        <p class="empty-slot">Cargando actualizaciones…</p>
+      </div>
+
+      <h2>Presupuesto comercial</h2>
+      <p class="lead">
         Propuesta para una landing page institucional del Colegio Northern: sitio web con información
         comercial, imágenes y presentaciones con máxima calidad visual, responsive (óptima
         visualización en cualquier dispositivo), más un panel para que la administración actualice
@@ -193,6 +203,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="../js/changelog-data.js"></script>
+  <script src="../js/changelog.js" defer></script>
   <script src="../js/sidebar.js" defer></script>
   <script src="../js/motion.js" defer></script>
 </body>

@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="../css/styles.css?v=3" />
+  <link rel="stylesheet" href="../css/styles.css?v=4" />
 </head>
 <body class="app">
   <div class="app__shell">
@@ -111,6 +111,10 @@
         <strong>vidriera pública</strong> integrada a la landing del colegio: alumnos y familias
         pueden ver el catálogo y realizar compras online.
       </p>
+
+      <div id="changelog" class="changelog" data-module="uniformes" aria-live="polite" aria-label="Historial de implementaciones">
+        <p class="empty-slot">Cargando actualizaciones…</p>
+      </div>
 
       <h2>Estado</h2>
       <p>
@@ -266,6 +270,8 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="../js/changelog-data.js"></script>
+  <script src="../js/changelog.js" defer></script>
   <script src="../js/sidebar.js" defer></script>
   <script src="../js/motion.js" defer></script>
 </body>
