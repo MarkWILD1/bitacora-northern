@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-08T18:20:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "HTTPS para abrir enlaces en iPhone y WhatsApp",
+    status: "done",
+    details: [
+      "El sistema queda con certificado seguro (HTTPS) para que iPhone y WhatsApp abran el link sin bloqueo",
+      "Los enlaces se copian como https://…sslip.io/contract/… (candado en el navegador)",
+    ],
+  },
+  {
     at: "2026-08-08T18:10:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
