@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-08T18:25:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Link de producción del sistema de contratos",
+    status: "done",
+    details: [
+      "El sistema en producción queda accesible desde la bitácora",
+      "Link: http://169.58.135.146",
+    ],
+  },
+  {
     at: "2026-08-08T18:20:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
