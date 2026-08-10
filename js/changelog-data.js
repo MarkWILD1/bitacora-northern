@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-10T12:58:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Cuota de USD 50 / mes con soporte integral",
+    status: "done",
+    details: [
+      "La mensualidad de USD 50 incluye soporte de landing, contratos e indumentaria deportiva",
+      "Queda aclarado en la propuesta de contratos (panel, tabla y resumen)",
+    ],
+  },
+  {
     at: "2026-08-08T18:25:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
