@@ -5,15 +5,16 @@
  */
 window.BITACORA_CHANGELOG = [
   {
-    at: "2026-08-13T11:50:00-03:00",
+    at: "2026-08-13T12:10:00-03:00",
     module: "Landing",
     moduleHref: "propuestas/landing.html",
-    title: "Subida de curriculum PDF regulada desde el admin",
+    title: "Subida de curriculum PDF en producción",
     status: "done",
     details: [
       "El postulante puede adjuntar su CV en PDF (máx. 5 MB) desde la sección Staff",
-      "El archivo se guarda en Vercel Blob y el admin puede verlo desde las postulaciones",
-      "En Admin → Staff se puede configurar el campo como tipo Curriculum PDF",
+      "El archivo se guarda de forma privada y el admin puede verlo desde las postulaciones",
+      "En Admin → Staff se configura el campo como tipo Curriculum PDF",
+      "Desplegado en https://northernschool.edu.uy",
     ],
   },
   {
