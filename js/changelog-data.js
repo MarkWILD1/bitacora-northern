@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-13T11:50:00-03:00",
+    module: "Landing",
+    moduleHref: "propuestas/landing.html",
+    title: "Subida de curriculum PDF regulada desde el admin",
+    status: "done",
+    details: [
+      "El postulante puede adjuntar su CV en PDF (máx. 5 MB) desde la sección Staff",
+      "El archivo se guarda en Vercel Blob y el admin puede verlo desde las postulaciones",
+      "En Admin → Staff se puede configurar el campo como tipo Curriculum PDF",
+    ],
+  },
+  {
     at: "2026-08-10T12:58:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
