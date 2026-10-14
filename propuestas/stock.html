@@ -113,25 +113,35 @@
         </header>
 
         <main class="card">
-      <p class="kicker">Seguimiento institucional · <span class="badge badge--done">Hecho</span></p>
+      <p class="kicker">Para el colegio · <span class="badge badge--done">Hecho</span></p>
       <h1 class="display" id="pageTitle">Gestión de stock</h1>
       <p class="meta">
-        Panel interno para llevar productos, entradas, ventas y el stock disponible del colegio.
-        Los últimos cambios de este proyecto aparecen arriba.
+        Sistema interno del colegio para saber qué productos hay, a qué precio se compran y se venden,
+        y cuánto queda disponible.
       </p>
-
-      <div id="changelog" class="changelog" data-module="stock" aria-live="polite" aria-label="Historial de implementaciones">
-        <p class="empty-slot">Cargando actualizaciones…</p>
-      </div>
 
       <h2>Qué incluye</h2>
       <ul>
-        <li>Productos con variantes (por ejemplo talle), categorías, proveedor habitual, precio de compra, precio de venta, ganancia y margen.</li>
-        <li>Fotos por enlace de Google Drive, con portada en el listado.</li>
-        <li>Entradas de mercadería y ventas, con stock en vivo y comprobante para imprimir.</li>
-        <li>Kardex de movimientos y ajustes de inventario (mermas, roturas o conteo).</li>
-        <li>Inicio con ventas y ganancia del día y del mes, alertas de stock bajo y reportes exportables a Excel.</li>
-        <li>Usuarios con tres roles: administración, ventas y consulta.</li>
+        <li>Productos con nombre, descripción, categoría y proveedor habitual.</li>
+        <li>Variantes, por ejemplo talle o color, cada una con su cantidad disponible.</li>
+        <li>Fotos del producto a partir de un enlace de Google Drive, con una imagen de portada.</li>
+        <li>Precio de compra, precio de venta, ganancia y margen.</li>
+        <li>Aviso cuando un producto queda por debajo del stock mínimo.</li>
+        <li>Proveedores, con datos de contacto, historial de compras y saldo pendiente.</li>
+        <li>Entradas de mercadería: proveedor, fecha, número de factura, cantidades y costo.</li>
+        <li>Ventas: búsqueda del producto, cantidad disponible en el momento, descuento, medio de pago y comprobante para imprimir.</li>
+        <li>Historial de movimientos: compras, ventas, devoluciones y anulaciones.</li>
+        <li>Ajustes de inventario por merma, rotura o conteo físico.</li>
+        <li>Inicio con las ventas y la ganancia del día y del mes, el valor del inventario y los productos más vendidos.</li>
+        <li>Reportes por período, producto, categoría y proveedor, con descarga a Excel.</li>
+        <li>Usuarios con tres accesos: administración, ventas y consulta.</li>
+      </ul>
+
+      <h2>Quién ve qué</h2>
+      <ul>
+        <li><strong>Administración:</strong> carga productos, ve costos y ganancia, registra compras, ajusta el stock y crea usuarios.</li>
+        <li><strong>Ventas:</strong> registra las ventas y consulta productos y cantidades. No ve precios de compra ni ganancia.</li>
+        <li><strong>Consulta:</strong> solo puede mirar la información, sin registrar cambios.</li>
       </ul>
 
           <div class="button-row" style="margin-top: 28px;">
