@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-14T09:26:00-03:00",
+    module: "Gestión de productos",
+    moduleHref: "propuestas/stock.html",
+    title: "El encabezado pasa a sistema integral y el menú queda bajo Uniformes",
+    status: "done",
+    details: [
+      "El rótulo de la ficha dice Sistema integral de gestión y Para concluir",
+      "En el menú lateral, Gestión de productos queda debajo de Uniformes, en Propuestas",
+    ],
+  },
+  {
     at: "2026-10-14T08:50:00-03:00",
     module: "Gestión de productos",
     moduleHref: "propuestas/stock.html",
