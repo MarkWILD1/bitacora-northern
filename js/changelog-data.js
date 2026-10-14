@@ -5,6 +5,19 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-14T08:50:00-03:00",
+    module: "Stock",
+    moduleHref: "propuestas/stock.html",
+    title: "Panel de gestión de stock del colegio",
+    status: "done",
+    details: [
+      "Productos con variantes, precios, ganancia y fotos por enlace de Google Drive",
+      "Entradas de proveedores, ventas con comprobante, stock en vivo y kardex",
+      "Reportes del período con exportación a Excel",
+      "Usuarios con roles de administración, ventas y consulta",
+    ],
+  },
+  {
     at: "2026-08-13T12:10:00-03:00",
     module: "Landing",
     moduleHref: "propuestas/landing.html",
