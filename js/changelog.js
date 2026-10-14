@@ -23,7 +23,7 @@
     landing: ["landing"],
     contratos: ["contratos"],
     uniformes: ["uniformes"],
-    stock: ["stock", "gestión"],
+    stock: ["stock", "gestion", "gestiondeproductos"],
     bitacora: ["bitacora", "bitácora"],
   };
 

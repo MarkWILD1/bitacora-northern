@@ -6,16 +6,16 @@
 window.BITACORA_CHANGELOG = [
   {
     at: "2026-10-14T08:50:00-03:00",
-    module: "Stock",
+    module: "Gestión de productos",
     moduleHref: "propuestas/stock.html",
-    title: "Qué incluye la gestión de stock",
+    title: "Qué incluye la gestión de productos",
     status: "done",
     details: [
-      "Productos con fotos, precio de compra, precio de venta, ganancia y stock por talle o variante",
-      "Compras a proveedores y ventas con comprobante, con la cantidad disponible en el momento",
-      "Historial de movimientos, ajustes de inventario y aviso cuando queda poco stock",
-      "Resumen del día y del mes, reportes y descarga a Excel",
-      "Accesos separados para administración, ventas y consulta",
+      "Catálogo con fotos de Google Drive, variantes por talle, precios, ganancia y stock mínimo",
+      "Categorías, proveedores con saldo pendiente, compras y ventas con comprobante",
+      "La ganancia de cada venta queda guardada aunque después cambien los precios",
+      "Historial de movimientos, ajustes, resumen del día y del mes, y reportes a Excel",
+      "Accesos de administración, ventas y consulta. La administración invita a los usuarios",
     ],
   },
   {

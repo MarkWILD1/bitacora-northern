@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Gestión de stock — Colegio Northern" />
-  <title>Gestión de stock — Colegio Northern</title>
+  <meta name="description" content="Gestión de productos — Colegio Northern" />
+  <title>Gestión de productos — Colegio Northern</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -65,12 +65,12 @@
               </a>
             </li>
             <li>
-              <a class="sidebar__link" href="stock.html" aria-current="page" title="Stock">
+              <a class="sidebar__link" href="stock.html" aria-current="page" title="Gestión de productos">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
                   <path d="m3.3 7 8.7 5 8.7-5M12 22V12" />
                 </svg>
-                <span class="sidebar__label">Stock</span>
+                <span class="sidebar__label">Gestión de productos</span>
               </a>
             </li>
           </ul>
@@ -104,7 +104,7 @@
             <path d="M4 7h16M4 12h16M4 17h16" />
           </svg>
         </button>
-        <span class="app__bar-title">Stock</span>
+        <span class="app__bar-title">Gestión de productos</span>
       </header>
 
       <div class="wrap">
@@ -114,35 +114,97 @@
 
         <main class="card">
       <p class="kicker">Para el colegio · <span class="badge badge--done">Hecho</span></p>
-      <h1 class="display" id="pageTitle">Gestión de stock</h1>
+      <h1 class="display" id="pageTitle">Gestión de productos</h1>
       <p class="meta">
-        Sistema interno del colegio para saber qué productos hay, a qué precio se compran y se venden,
-        y cuánto queda disponible.
+        Sistema interno del colegio para llevar el catálogo, las compras a proveedores, las ventas
+        y la cantidad disponible. Sirve para uniformes por talle, librería, cantina y cualquier
+        otro artículo que el colegio compre o venda.
       </p>
 
-      <h2>Qué incluye</h2>
+      <h2>Productos</h2>
+      <p>
+        Cada producto tiene código, nombre, descripción, categoría, unidad (por ejemplo unidad o par)
+        y proveedor habitual. Se puede buscar por nombre o código, y filtrar por categoría, proveedor,
+        stock bajo o solo activos.
+      </p>
       <ul>
-        <li>Productos con nombre, descripción, categoría y proveedor habitual.</li>
-        <li>Variantes, por ejemplo talle o color, cada una con su cantidad disponible.</li>
-        <li>Fotos del producto a partir de un enlace de Google Drive, con una imagen de portada.</li>
-        <li>Precio de compra, precio de venta, ganancia y margen.</li>
-        <li>Aviso cuando un producto queda por debajo del stock mínimo.</li>
-        <li>Proveedores, con datos de contacto, historial de compras y saldo pendiente.</li>
-        <li>Entradas de mercadería: proveedor, fecha, número de factura, cantidades y costo.</li>
-        <li>Ventas: búsqueda del producto, cantidad disponible en el momento, descuento, medio de pago y comprobante para imprimir.</li>
-        <li>Historial de movimientos: compras, ventas, devoluciones y anulaciones.</li>
-        <li>Ajustes de inventario por merma, rotura o conteo físico.</li>
-        <li>Inicio con las ventas y la ganancia del día y del mes, el valor del inventario y los productos más vendidos.</li>
-        <li>Reportes por período, producto, categoría y proveedor, con descarga a Excel.</li>
-        <li>Usuarios con tres accesos: administración, ventas y consulta.</li>
+        <li>Precio de compra, precio de venta, ganancia por unidad y margen.</li>
+        <li>Variantes, como talle o color. La cantidad se controla por variante: un buzo talle 8 y un buzo talle 10 se siguen por separado. Si el artículo no tiene variantes, queda como único.</li>
+        <li>Stock mínimo. Cuando la cantidad baja de ese número, el producto queda marcado para reponer.</li>
+        <li>Se puede desactivar un producto sin borrar sus compras ni sus ventas anteriores.</li>
+        <li>La ficha muestra las fotos, las variantes, los precios y el historial de movimientos de ese artículo.</li>
       </ul>
+
+      <h2>Fotos</h2>
+      <p>
+        Las fotos no se suben al sistema. En la ficha se pega un enlace de Google Drive, compartido
+        para que cualquiera con el enlace pueda verlo. Se pueden agregar varias fotos, cambiar el orden
+        y elegir cuál es la portada. Esa portada es la miniatura que se ve en el listado.
+      </p>
+
+      <h2>Categorías y proveedores</h2>
+      <p>
+        Las categorías ordenan el catálogo, por ejemplo uniformes, librería o cantina. De cada proveedor
+        se guarda la razón social, el RUC o CUIT, la persona de contacto, el teléfono, el correo, la
+        dirección y notas. En su ficha se ve el historial de compras y el saldo que sigue pendiente de pago.
+      </p>
+
+      <h2>Compras</h2>
+      <p>
+        Cada entrada de mercadería anota el proveedor, la fecha, el número de factura y si está pagada
+        o pendiente. En cada línea se elige el producto o la variante, la cantidad y el costo de esa compra.
+        Al confirmar, aumenta el stock y el costo del producto se actualiza según lo que se fue pagando.
+      </p>
+      <p>
+        Si una compra se carga mal, se anula: la mercadería sale del stock y el comprobante queda marcado
+        como anulado. No se borra, para que el historial siga completo.
+      </p>
+
+      <h2>Ventas</h2>
+      <p>
+        La venta es rápida. Se busca el producto por nombre o código, se arma el pedido y en todo momento
+        se ve cuánto hay disponible. Se puede indicar el cliente o el alumno, aplicar un descuento y elegir
+        el medio de pago: efectivo, transferencia, tarjeta u otro. Al guardar se descuenta el stock y queda
+        un comprobante para imprimir, con el nombre del colegio.
+      </p>
+      <p>
+        La ganancia de esa venta queda guardada con el costo y el precio del momento. Si más adelante se
+        cambian los precios del catálogo, las ventas ya hechas no se recalculan. Una venta anulada devuelve
+        la mercadería al stock y el comprobante queda como anulado.
+      </p>
+
+      <h2>Movimientos de stock</h2>
+      <p>
+        Cada cambio de cantidad queda anotado: compras, ventas, devoluciones, anulaciones y ajustes.
+        Los ajustes cubren una merma, una rotura o un conteo físico, y piden un motivo. Ese historial
+        se puede ver en general, filtrado, o desde la ficha de un producto.
+      </p>
+
+      <h2>Inicio</h2>
+      <p>
+        La pantalla de inicio resume el día y el mes: cuánto se vendió, cuánto se ganó, cuánto vale el
+        inventario y qué productos están por debajo del mínimo. También muestra los más vendidos y un
+        gráfico de las ventas de los últimos 30 días.
+      </p>
+
+      <h2>Reportes</h2>
+      <p>
+        Los reportes se filtran por fechas y se descargan a Excel. Incluyen ventas y ganancia por producto
+        y por categoría, los más vendidos, el stock bajo, el valor del inventario a costo y a precio de venta,
+        y las compras agrupadas por proveedor.
+      </p>
 
       <h2>Quién ve qué</h2>
       <ul>
-        <li><strong>Administración:</strong> carga productos, ve costos y ganancia, registra compras, ajusta el stock y crea usuarios.</li>
-        <li><strong>Ventas:</strong> registra las ventas y consulta productos y cantidades. No ve precios de compra ni ganancia.</li>
-        <li><strong>Consulta:</strong> solo puede mirar la información, sin registrar cambios.</li>
+        <li><strong>Administración:</strong> carga productos, categorías y proveedores, ve costos y ganancia, registra compras, ajusta el stock y crea o desactiva usuarios.</li>
+        <li><strong>Ventas:</strong> registra las ventas y consulta el catálogo y las cantidades. No ve precios de compra, costos ni ganancia.</li>
+        <li><strong>Consulta:</strong> solo mira la información, sin registrar cambios.</li>
       </ul>
+      <p>
+        No hay un registro abierto al público. La administración invita a cada persona, le asigna uno de
+        esos accesos y puede desactivarla cuando ya no corresponda. En la configuración se define la moneda
+        y el nombre del colegio que aparece en los comprobantes.
+      </p>
 
           <div class="button-row" style="margin-top: 28px;">
             <a class="button button--ghost" href="../index.html">Volver a actualizaciones</a>
