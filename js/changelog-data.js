@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-14T11:10:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Buscador en enlaces emitidos",
+    status: "done",
+    details: [
+      "En Enlaces emitidos hay un buscador por tutor, contrato, alumno o correo",
+      "La búsqueda filtra la pestaña activa y actualiza los contadores de No aceptados y Aceptados",
+      "No distingue mayúsculas ni tildes",
+    ],
+  },
+  {
     at: "2026-10-14T09:26:00-03:00",
     module: "Gestión de productos",
     moduleHref: "propuestas/stock.html",
