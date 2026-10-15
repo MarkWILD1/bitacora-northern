@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-14T21:40:00-03:00",
+    module: "Contratos",
+    moduleHref: "propuestas/contratos.html",
+    title: "Buscador de enlaces emitidos en producción",
+    status: "done",
+    details: [
+      "El sistema en https://169.58.135.146.sslip.io ya incluye el buscador de enlaces emitidos",
+      "Se actualizó el sitio sin borrar contratos, comprobantes ni la configuración HTTPS",
+    ],
+  },
+  {
     at: "2026-10-14T11:10:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
