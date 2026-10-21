@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-21T02:32:00-03:00",
+    module: "Gestión de productos",
+    moduleHref: "propuestas/stock.html",
+    title: "El inicio de Ventas no muestra los totales de venta",
+    status: "done",
+    details: [
+      "Quien vende ya no ve en el inicio las ventas de hoy, las del mes ni el gráfico de los últimos 30 días",
+      "En ese inicio siguen el stock bajo y los productos más vendidos",
+      "Administración sigue viendo los totales, la ganancia y el gráfico",
+    ],
+  },
+  {
     at: "2026-10-21T02:06:00-03:00",
     module: "Gestión de productos",
     moduleHref: "propuestas/stock.html",
