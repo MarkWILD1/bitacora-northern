@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-21T02:38:00-03:00",
+    module: "Gestión de productos",
+    moduleHref: "propuestas/stock.html",
+    title: "El menú lateral queda en degradé azul",
+    status: "done",
+    details: [
+      "El menú pasa de blanco a un degradé: #60748D arriba y #3B5174 abajo",
+      "Textos, ítem activo y el botón Salir quedan en blanco para leerse sobre el azul",
+    ],
+  },
+  {
     at: "2026-10-21T02:32:00-03:00",
     module: "Gestión de productos",
     moduleHref: "propuestas/stock.html",
