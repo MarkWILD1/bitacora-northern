@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-21T02:54:00-03:00",
+    module: "Gestión de productos",
+    moduleHref: "propuestas/stock.html",
+    title: "El panel de stock quedó publicado",
+    status: "done",
+    details: [
+      "Se entra en https://northern-gestion.vercel.app",
+      "Sin sesión, el sistema vuelve a la pantalla de ingreso con email y contraseña",
+    ],
+  },
+  {
     at: "2026-10-21T02:38:00-03:00",
     module: "Gestión de productos",
     moduleHref: "propuestas/stock.html",
