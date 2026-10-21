@@ -5,6 +5,31 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-21T11:37:00-03:00",
+    module: "Gestión de productos",
+    moduleHref: "propuestas/stock.html",
+    title: "Clientes y carga de planillas",
+    status: "done",
+    details: [
+      "En el menú, Clientes queda debajo de Proveedores",
+      "Se pueden cargar clientes a mano o con un Excel",
+      "Los productos también se pueden importar desde Excel, sin cambiar el stock",
+      "Al vender, se puede elegir un cliente cargado o escribir un nombre que no esté en la lista",
+    ],
+  },
+  {
+    at: "2026-10-21T10:53:00-03:00",
+    module: "Gestión de productos",
+    moduleHref: "propuestas/stock.html",
+    title: "Una entrada pendiente puede indicar las cuotas",
+    status: "done",
+    details: [
+      "En Nueva entrada, si el pago queda pendiente, se puede anotar cuántas cuotas son",
+      "Si el pago figura como pagado, ese campo no aparece y no se guarda",
+      "El listado de entradas, el detalle y la ficha del proveedor muestran, por ejemplo, Pendiente · 3 cuotas",
+    ],
+  },
+  {
     at: "2026-10-21T02:54:00-03:00",
     module: "Gestión de productos",
     moduleHref: "propuestas/stock.html",
