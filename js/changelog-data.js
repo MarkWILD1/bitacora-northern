@@ -5,6 +5,16 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-21T02:06:00-03:00",
+    module: "Gestión de productos",
+    moduleHref: "propuestas/stock.html",
+    title: "El código del producto reemplaza a SKU",
+    status: "done",
+    details: [
+      "En el alta de productos, el listado, las compras, las ventas y el Excel de stock, el campo se llama Código",
+    ],
+  },
+  {
     at: "2026-10-14T21:40:00-03:00",
     module: "Contratos",
     moduleHref: "propuestas/contratos.html",
