@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-30T09:20:00-03:00",
+    module: "Gestión de productos",
+    moduleHref: "propuestas/stock.html",
+    title: "Reportes del vendedor: ventas por producto y estado de cuenta",
+    status: "done",
+    details: [
+      "En Reportes, Ventas por producto queda igual para quien vende y para administración, sin mostrar costo ni ganancia al vendedor",
+      "Debajo de esa tabla se arma el estado de cuenta del cliente: saldo anterior, ventas a crédito, recibos, debe, haber y saldo",
+      "El estado de cuenta se puede bajar en PDF, con el mismo formato de mayor de deudores",
+    ],
+  },
+  {
     at: "2026-10-21T11:37:00-03:00",
     module: "Gestión de productos",
     moduleHref: "propuestas/stock.html",
